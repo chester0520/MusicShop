@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "275c6295b15cc1d8fcb4",
+    "revision": "a4259aa5c928aa7b88fb",
     "url": "css/app.efd48949.css"
   },
   {
-    "revision": "570e386d5010f7acdf15",
+    "revision": "d42ea8a6a38f7e8e9075",
     "url": "css/chunk-vendors.ca0d4016.css"
   },
   {
@@ -68,12 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/iconfont.a5b5d416.svg"
   },
   {
-    "revision": "6f9b687199bd28d69a7b36033953faba",
+    "revision": "5b7d5b68688d5f5d15ffc90f0223b566",
     "url": "index.html"
   },
   {
-    "revision": "e9b3300be81d04d870fe",
-    "url": "js/AdminNews.7f5a5f9c.js"
+    "revision": "677709e4b188b79afdc6",
+    "url": "js/AdminNews.925a95ee.js"
   },
   {
     "revision": "5843fddad836b92a3f76",
@@ -88,52 +88,52 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/AdminOrders.4fb84061.js"
   },
   {
-    "revision": "c41dedda3acbab9ad31d",
-    "url": "js/AdminProducts.1e57a7fa.js"
+    "revision": "c81d503665924a99b469",
+    "url": "js/AdminProducts.b02e1fc4.js"
   },
   {
-    "revision": "9000602737bfbb78ecc5",
-    "url": "js/aboutus.c62c13c6.js"
+    "revision": "ba5ac936f98e0350183c",
+    "url": "js/aboutus.6a9445ec.js"
   },
   {
     "revision": "154416207d62faccc37d",
     "url": "js/admin.6b83d629.js"
   },
   {
-    "revision": "275c6295b15cc1d8fcb4",
-    "url": "js/app.6b225d61.js"
+    "revision": "a4259aa5c928aa7b88fb",
+    "url": "js/app.d55d7b9f.js"
   },
   {
-    "revision": "fa846799eccf79b34d1e",
-    "url": "js/cart.53cd3262.js"
+    "revision": "14b77d878935b440b070",
+    "url": "js/cart.2b4b3f46.js"
   },
   {
-    "revision": "570e386d5010f7acdf15",
-    "url": "js/chunk-vendors.14779836.js"
+    "revision": "d42ea8a6a38f7e8e9075",
+    "url": "js/chunk-vendors.9b2e2a7a.js"
   },
   {
     "revision": "f0ee94ea1571b03e68f2",
     "url": "js/login.0027dfdf.js"
   },
   {
-    "revision": "28f46a32f08ddf628b25",
-    "url": "js/news.11e428a1.js"
+    "revision": "bd3337b5075b94e88693",
+    "url": "js/news.1e6022ee.js"
   },
   {
-    "revision": "5286feb8ae8e5e947bed",
-    "url": "js/order.16fa5f82.js"
+    "revision": "a2e98ed5982f663780d4",
+    "url": "js/order.bb998311.js"
   },
   {
     "revision": "591aacda22cb25042865",
     "url": "js/personal.429f75f4.js"
   },
   {
-    "revision": "9895a298b58c3e2676a8",
-    "url": "js/product.2dbbf162.js"
+    "revision": "a9bc31cb880f8393a63d",
+    "url": "js/product.13ed209d.js"
   },
   {
-    "revision": "29ea9457ec732139824f",
-    "url": "js/productlist.fa236af3.js"
+    "revision": "e6d43b3fac8861fe0e75",
+    "url": "js/productlist.a4eb6ea2.js"
   },
   {
     "revision": "00305adfb8a05737a9d9",
