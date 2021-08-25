@@ -68,7 +68,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/iconfont.a5b5d416.svg"
   },
   {
-    "revision": "88590f227f7866825eb86af51fb54c67",
+    "revision": "0ebee87e71bc9102c0bcb625a55d4008",
     "url": "index.html"
   },
   {
@@ -154,5 +154,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "robots.txt"
+  },
+  {
+    "revision": "6004ae8c07a6778c6dae73020ffa6c2a",
+    "url": "store.jpg"
   }
 ]);
