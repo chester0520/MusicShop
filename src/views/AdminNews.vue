@@ -26,6 +26,9 @@
           template(v-slot:body-cell-post="props")
             q-td(:props="props")
               | {{ props.row.post ? '公開' : '隱藏' }}
+          template(v-slot:body-cell-text="props")
+            q-td(:props="props")
+              p.tabletext {{ props.row.text }}
           template(v-slot:body-cell-action="props")
             q-td(:props="props")
               q-btn(icon="edit" color="primary" @click="editNews(props.rowIndex)")

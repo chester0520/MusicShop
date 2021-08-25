@@ -5,8 +5,8 @@
       q-breadcrumbs-el(icon="home" to="/")
       q-breadcrumbs-el(label="商品列表")
     .row
-      .col-2
-        q-list.q-mx-md(bordered)
+      .col-12.col-md-2
+        q-list.q-mx-md.q-mb-xl(bordered)
           q-item(v-ripple clickable :active="link === 'all'" @click="showCategory('all')" active-class="my-menu-link")
             q-item-section 全部商品
           q-item(v-ripple clickable :active="link === 'category1'" @click="showCategory('category1')" active-class="my-menu-link")
@@ -19,7 +19,7 @@
             q-item-section 週邊耗材
       .col
         .row.q-mb-xl
-          .col-4(v-for="product in filterProducts" :key="product._id")
+          .col-md-4(v-for="product in filterProducts" :key="product._id")
             router-link(:to="'/'+product._id")
               ProductCard(:product="product")
 </template>

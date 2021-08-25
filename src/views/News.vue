@@ -5,14 +5,15 @@
       q-breadcrumbs-el(icon="home" to="/")
       q-breadcrumbs-el(label="最新消息")
   .container
-    .col-xs-12.col-sm-8.col-md-6(v-for="new1 in news")
-      q-card.q-pa-lg.newsCard
-        q-card-section.q-mr-lg(style="width: 30%;height: 100%;")
-          q-img(:src="new1.image")(style="height: 100%;")
-        q-card-section(style="width: 70%;")
-          h4.q-my-md {{ new1.title }}
-          p.text {{ new1.text }}
-          p.date 刊登日期:{{ new1.date }}
+    .row
+      .col-xs-12.col-md-6(v-for="new1 in news")
+        q-card.q-pa-lg.q-my-lg.newsCard
+          q-card-section.leftsection
+            q-img(:src="new1.image")
+          q-card-section(style="width: 70%;height: 100%;")
+            h4.q-my-md {{ new1.title }}
+            p.text {{ new1.text }}
+            p.date 刊登日期:{{ new1.date }}
 </template>
 
 <script>

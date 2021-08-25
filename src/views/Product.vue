@@ -30,13 +30,10 @@
           q-tab(name='movies' label='運送方式')
         q-tab-panels(v-model='tab' animated)
           q-tab-panel(name='mails')
-            .text-h6 商品介紹
             | {{ description }}
           q-tab-panel(name='alarms')
-            .text-h6 規格說明
             | Lorem ipsum dolor sit amet consectetur adipisicing elit.
           q-tab-panel(name='movies')
-            .text-h6 運送方式
             | Lorem ipsum dolor sit amet consectetur adipisicing elit.
     .row.q-pa-md
       h5 相關商品
@@ -102,7 +99,7 @@ export default {
       this.name = data.result.name
       this.price = data.result.price
       this.description = data.result.description
-      this.image = `${process.env.API_URL}/files/${data.result.image}`
+      this.image = `${process.env.VUE_APP_API}/files/${data.result.image}`
       this.sell = data.result.sell
       this.cards = data.result2.map(card => {
         if (card.image) {

@@ -22,12 +22,18 @@
     .row
       .col
         q-table(flat bordered :data="products" :columns="columns" row-key="name" :pagination.sync="pagination" hide-pagination)
+          template(v-slot:body-cell-name="props")
+            q-td(:props="props")
+              p.tabletext {{ props.row.name }}
           template(v-slot:body-cell-image="props")
             q-td(:props="props")
               img(:src="props.row.image" style="height: 50px")
           template(v-slot:body-cell-sell="props")
             q-td(:props="props")
               | {{ props.row.sell ? '上架' : '下架' }}
+          template(v-slot:body-cell-description="props")
+            q-td(:props="props")
+              p.tabletext {{ props.row.description }}
           template(v-slot:body-cell-action="props")
             q-td(:props="props")
               q-btn(icon="edit" color="primary" @click="editProduct(props.rowIndex)")
