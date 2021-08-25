@@ -111,7 +111,7 @@ export default {
             }
           })
           this.news.push(this.form)
-          this.form.image = `${process.env.API_URL}/files/${data.result.image}`
+          this.form.image = `${process.env.VUE_APP_API}/files/${data.result.image}`
         } else {
           const { data } = await this.axios.patch('/news/' + this.form._id, fd, {
             headers: {
@@ -123,7 +123,7 @@ export default {
             text: this.form.text,
             date: this.form.date,
             post: this.form.post,
-            image: `${process.env.API_URL}/files/${data.result.image}`,
+            image: `${process.env.VUE_APP_API}/files/${data.result.image}`,
             _id: this.form._id
           }
           this.$set(this.news[this.form.index], 'title', this.form.title)
@@ -169,7 +169,7 @@ export default {
       })
       this.news = data.result.map(news => {
         if (news.image) {
-          news.image = `${process.env.API_URL}/files/${news.image}`
+          news.image = `${process.env.VUE_APP_API}/files/${news.image}`
         }
         news.date = new Date(news.date).toLocaleDateString()
         return news

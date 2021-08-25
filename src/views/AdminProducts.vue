@@ -135,7 +135,7 @@ export default {
             }
           })
           this.products.push(this.form)
-          this.form.image = `${process.env.API_URL}/files/${data.result.image}`
+          this.form.image = `${process.env.VUE_APP_API}/files/${data.result.image}`
         } else {
           const { data } = await this.axios.patch('/products/' + this.form._id, fd, {
             headers: {
@@ -147,7 +147,7 @@ export default {
             price: this.form.price,
             description: this.form.description,
             sell: this.form.sell,
-            image: `${process.env.API_URL}/files/${data.result.image}`,
+            image: `${process.env.VUE_APP_API}/files/${data.result.image}`,
             category: this.form.category,
             _id: this.form._id
           }
@@ -196,7 +196,7 @@ export default {
       })
       this.products = data.result.map(product => {
         if (product.image) {
-          product.image = `${process.env.API_URL}/files/${product.image}`
+          product.image = `${process.env.VUE_APP_API}/files/${product.image}`
         }
         return product
       })

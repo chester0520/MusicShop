@@ -106,7 +106,7 @@ export default {
       this.sell = data.result.sell
       this.cards = data.result2.map(card => {
         if (card.image) {
-          card.image = `${process.env.API_URL}/files/${card.image}`
+          card.image = `${process.env.VUE_APP_API}/files/${card.image}`
         }
         return card
       })

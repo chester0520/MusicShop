@@ -97,7 +97,7 @@ export default {
       })
       this.cart = data.result.map(item => {
         item = { ...item.product, amount: item.amount }
-        item.image = `${process.env.API_URL}/files/${item.image}`
+        item.image = `${process.env.VUE_APP_API}/files/${item.image}`
         item.edit = false
         item.amountModel = item.amount
         return item

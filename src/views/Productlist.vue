@@ -65,7 +65,7 @@ export default {
       const { data } = await this.axios.get('/products')
       this.products = data.result.map(product => {
         if (product.image) {
-          product.image = `${process.env.API_URL}/files/${product.image}`
+          product.image = `${process.env.VUE_APP_API}/files/${product.image}`
         }
         return product
       })
