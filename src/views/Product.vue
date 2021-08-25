@@ -32,9 +32,9 @@
           q-tab-panel(name='mails')
             | {{ description }}
           q-tab-panel(name='alarms')
-            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            | {{ description }}
           q-tab-panel(name='movies')
-            | Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            | {{ description }}
     .row.q-pa-md
       h5 相關商品
       .row.justify-center
