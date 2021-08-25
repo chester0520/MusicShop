@@ -54,10 +54,10 @@ export default {
         carousel2: `${process.env.VUE_APP_API}/files/carousel2.jpg`,
         carousel3: `${process.env.VUE_APP_API}/files/carousel3.jpg`,
         carousel4: `${process.env.VUE_APP_API}/files/carousel4.jpg`,
-        category1: `${process.env.VUE_APP_API}/files/樂器.jpg`,
-        category2: `${process.env.VUE_APP_API}/files/音響.jpg`,
-        category3: `${process.env.VUE_APP_API}/files/效果器.jpg`,
-        category4: `${process.env.VUE_APP_API}/files/週邊.jpg`
+        category1: `${process.env.VUE_APP_API}/files/music1.jpg`,
+        category2: `${process.env.VUE_APP_API}/files/music2.jpg`,
+        category3: `${process.env.VUE_APP_API}/files/music3.jpg`,
+        category4: `${process.env.VUE_APP_API}/files/music4.jpg`
       },
       products: [],
       link: ''

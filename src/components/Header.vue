@@ -58,7 +58,7 @@ export default {
   name: 'Header',
   data () {
     return {
-      image: `${process.env.API_URL}/files//專題/ZAKK.png`
+      image: `${process.env.VUE_APP_API}/files/ZAKK.png`
     }
   },
   methods: {
