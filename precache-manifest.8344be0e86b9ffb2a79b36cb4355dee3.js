@@ -1,7 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9d61fe896931e095b459",
-    "url": "css/app.efd48949.css"
+    "revision": "cf5e92d1a17dd713d062",
+    "url": "css/app.2c94dbac.css"
   },
   {
     "revision": "f1713db95cb05fe8aa01",
@@ -68,12 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/iconfont.a5b5d416.svg"
   },
   {
-    "revision": "cab03ed4ac65a6a19f8cb73241c56749",
+    "revision": "e87db82472852da086ee22c514fe596b",
     "url": "index.html"
   },
   {
-    "revision": "f29cc70172ef8b5f4e1c",
-    "url": "js/AdminNews.6eca9a56.js"
+    "revision": "612adf29dd286d2cb348",
+    "url": "js/AdminNews.e9a4ef4a.js"
   },
   {
     "revision": "5843fddad836b92a3f76",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/AdminOrders.4fb84061.js"
   },
   {
-    "revision": "886775379ea2de732994",
-    "url": "js/AdminProducts.969a41b6.js"
+    "revision": "63544f8da23c9a71bea6",
+    "url": "js/AdminProducts.7440fe01.js"
   },
   {
     "revision": "260c6e283cf237d0d076",
@@ -100,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/admin.6b83d629.js"
   },
   {
-    "revision": "9d61fe896931e095b459",
-    "url": "js/app.611d0ab3.js"
+    "revision": "cf5e92d1a17dd713d062",
+    "url": "js/app.0e1a622c.js"
   },
   {
     "revision": "da2cdc19d563fd9f47ef",
@@ -116,8 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/login.0027dfdf.js"
   },
   {
-    "revision": "d25e7bb5f0ea1f704b23",
-    "url": "js/news.0b8b8e36.js"
+    "revision": "b3de1aa12305c9ad09ee",
+    "url": "js/news.8c7c6928.js"
   },
   {
     "revision": "d63d60254d1124f78de4",
@@ -128,12 +128,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/personal.429f75f4.js"
   },
   {
-    "revision": "9dace4204476e525d212",
-    "url": "js/product.cd8641f6.js"
+    "revision": "d8033d2ae4978266bf7b",
+    "url": "js/product.ec333e9b.js"
   },
   {
-    "revision": "d844bd0c5ccb5fb60326",
-    "url": "js/productlist.7466ee85.js"
+    "revision": "83ab7a00e173f0faed0b",
+    "url": "js/productlist.77c822b0.js"
   },
   {
     "revision": "00305adfb8a05737a9d9",
