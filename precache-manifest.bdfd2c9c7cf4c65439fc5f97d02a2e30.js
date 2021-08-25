@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc09a87883a82830a5d6",
+    "revision": "9d61fe896931e095b459",
     "url": "css/app.efd48949.css"
   },
   {
@@ -68,7 +68,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/iconfont.a5b5d416.svg"
   },
   {
-    "revision": "91d4b84579f1eaa3bebe45b733d10e33",
+    "revision": "cab03ed4ac65a6a19f8cb73241c56749",
     "url": "index.html"
   },
   {
@@ -92,16 +92,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/AdminProducts.969a41b6.js"
   },
   {
-    "revision": "9f6c04472a6f9b3ee40e",
-    "url": "js/aboutus.cf8e110e.js"
+    "revision": "260c6e283cf237d0d076",
+    "url": "js/aboutus.15abda27.js"
   },
   {
     "revision": "154416207d62faccc37d",
     "url": "js/admin.6b83d629.js"
   },
   {
-    "revision": "bc09a87883a82830a5d6",
-    "url": "js/app.7dff6dc8.js"
+    "revision": "9d61fe896931e095b459",
+    "url": "js/app.611d0ab3.js"
   },
   {
     "revision": "da2cdc19d563fd9f47ef",
