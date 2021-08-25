@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0ff52c835341c62dfa5f",
+    "revision": "d3497e0683d1d1155798",
     "url": "css/app.efd48949.css"
   },
   {
@@ -68,12 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/iconfont.a5b5d416.svg"
   },
   {
-    "revision": "0ebee87e71bc9102c0bcb625a55d4008",
+    "revision": "a6ee222bfa9a9d8661204c92b9169d21",
     "url": "index.html"
   },
   {
-    "revision": "428a8f02600f2cad129e",
-    "url": "js/AdminNews.79905d56.js"
+    "revision": "454a637b8e7be419568a",
+    "url": "js/AdminNews.61cd6137.js"
   },
   {
     "revision": "5843fddad836b92a3f76",
@@ -88,24 +88,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/AdminOrders.4fb84061.js"
   },
   {
-    "revision": "e2ef11e723206a1e7d70",
-    "url": "js/AdminProducts.a2636f3e.js"
+    "revision": "bc50388503849bcfee1a",
+    "url": "js/AdminProducts.302f3cea.js"
   },
   {
-    "revision": "140eb23394d17525a945",
-    "url": "js/aboutus.5cf9411f.js"
+    "revision": "1e46969cdac7f0b1c977",
+    "url": "js/aboutus.ec644273.js"
   },
   {
     "revision": "154416207d62faccc37d",
     "url": "js/admin.6b83d629.js"
   },
   {
-    "revision": "0ff52c835341c62dfa5f",
-    "url": "js/app.75043c45.js"
+    "revision": "d3497e0683d1d1155798",
+    "url": "js/app.c6280609.js"
   },
   {
-    "revision": "cf1dc7d3903ea621fe3c",
-    "url": "js/cart.79f8831f.js"
+    "revision": "88c2cfeb763e5df7114a",
+    "url": "js/cart.e927fd9a.js"
   },
   {
     "revision": "0299193144a0c2a41e3d",
@@ -116,24 +116,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/login.0027dfdf.js"
   },
   {
-    "revision": "11ae5b5044121ddfb4fb",
-    "url": "js/news.1d18d5af.js"
+    "revision": "4244a7f746efb49ef985",
+    "url": "js/news.a54476d1.js"
   },
   {
-    "revision": "0ea1a49fb13a9fe1aab4",
-    "url": "js/order.876b24c5.js"
+    "revision": "de8e799bcb54ae5b69c3",
+    "url": "js/order.7ec6e4c1.js"
   },
   {
     "revision": "591aacda22cb25042865",
     "url": "js/personal.429f75f4.js"
   },
   {
-    "revision": "aad6801ef93969b0dff8",
-    "url": "js/product.4c728f50.js"
+    "revision": "95deea959c102d55ba32",
+    "url": "js/product.23fb3a5f.js"
   },
   {
-    "revision": "176021606b159c39468f",
-    "url": "js/productlist.9c69ec4e.js"
+    "revision": "303f4c60ffa809029c0b",
+    "url": "js/productlist.cb646f01.js"
   },
   {
     "revision": "00305adfb8a05737a9d9",
@@ -144,8 +144,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/service.dd2eb15d.js"
   },
   {
-    "revision": "f1c4ba9164554f3c48d8",
-    "url": "js/userinfo.1c4273bc.js"
+    "revision": "9183d3d52dc957c27fb6",
+    "url": "js/userinfo.ffa13c71.js"
   },
   {
     "revision": "1ecee0c343b1bc0443f2e6eba14ed6ff",
