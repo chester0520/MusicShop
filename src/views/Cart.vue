@@ -97,7 +97,7 @@ export default {
       })
       this.cart = data.result.map(item => {
         item = { ...item.product, amount: item.amount }
-        item.image = `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/${item.image}`
+        item.image = `${process.env.API_URL}/files/${item.image}`
         item.edit = false
         item.amountModel = item.amount
         return item

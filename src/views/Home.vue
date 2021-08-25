@@ -50,14 +50,14 @@ export default {
       slide: 1,
       autoplay: true,
       image: {
-        carousel1: `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/carousel1.jpg`,
-        carousel2: `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/carousel2.jpg`,
-        carousel3: `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/carousel3.jpg`,
-        carousel4: `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/carousel4.jpg`,
-        category1: `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/樂器.jpg`,
-        category2: `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/音響.jpg`,
-        category3: `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/效果器.jpg`,
-        category4: `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/週邊.jpg`
+        carousel1: `${process.env.API_URL}/files/carousel1.jpg`,
+        carousel2: `${process.env.API_URL}/files/carousel2.jpg`,
+        carousel3: `${process.env.API_URL}/files/carousel3.jpg`,
+        carousel4: `${process.env.API_URL}/files/carousel4.jpg`,
+        category1: `${process.env.API_URL}/files/樂器.jpg`,
+        category2: `${process.env.API_URL}/files/音響.jpg`,
+        category3: `${process.env.API_URL}/files/效果器.jpg`,
+        category4: `${process.env.API_URL}/files/週邊.jpg`
       },
       products: [],
       link: ''
@@ -76,7 +76,7 @@ export default {
       const { data } = await this.axios.get('/products/random')
       this.products = data.result.map(product => {
         if (product.image) {
-          product.image = `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/${product.image}`
+          product.image = `${process.env.API_URL}/files/${product.image}`
         }
         return product
       })

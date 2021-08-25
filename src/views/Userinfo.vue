@@ -13,9 +13,9 @@
           q-item
             q-item-section
               router-link(to='/userinfo/order') 訂單查詢
-          q-item
-            q-item-section
-              router-link(to='/userinfo/service') 聯絡客服
+          //- q-item
+          //-   q-item-section
+          //-     router-link(to='/userinfo/service') 聯絡客服
       .col
         router-view
 </template>

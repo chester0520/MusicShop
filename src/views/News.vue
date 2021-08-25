@@ -53,7 +53,7 @@ export default {
       })
       this.news = data.result.map(news => {
         if (news.image) {
-          news.image = `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/${news.image}`
+          news.image = `${process.env.API_URL}/files/${news.image}`
         }
         news.date = new Date(news.date).toLocaleDateString()
         return news

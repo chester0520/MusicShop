@@ -35,7 +35,7 @@ export default {
       this.orders = data.result.map(order => {
         order.date = new Date(order.date).toLocaleDateString()
         for (const product in order.products) {
-          order.products[product].product.image = `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/${order.products[product].product.image}`
+          order.products[product].product.image = `${process.env.API_URL}/files/${order.products[product].product.image}`
         }
         console.log(order.date)
         return order

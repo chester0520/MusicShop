@@ -58,7 +58,7 @@ export default {
   name: 'Header',
   data () {
     return {
-      image: `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/ZAKK.png`
+      image: `${process.env.API_URL}/files//專題/ZAKK.png`
     }
   },
   methods: {

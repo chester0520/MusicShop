@@ -1,24 +1,24 @@
 <template lang="pug">
 #AdminProducts
   .q-px-md
+    h4 商品管理
+      q-btn.q-mx-lg(round color="primary" icon="add" @click="modal = true")
     .row
-      h4 商品管理
-        q-btn.q-mx-lg(round color="primary" icon="add" @click="modal = true")
-        q-dialog(persistent v-model="modal")
-          q-card
-            q-card-section
-              h4(v-if="form._id.length > 0") 編輯商品
-              h4(v-else) 新增商品
-            q-card-section
-              q-form.q-gutter-md(@submit='submit' @reset="reset")
-                img-inputer(v-model="form.image" theme="dark" size="large" placeholder="點擊或拖曳選擇圖片" bottom-text="點擊或拖曳以修改")
-                q-input(filled v-model="form.name" label="商品名稱" :rules="[ val => val.length >= 1 || '必須 1 個字以上']")
-                q-input(filled v-model="form.price" type="number" label="商品價格" :rules="[ val => val >= 0 || '價格需為 0 以上']")
-                q-input(filled v-model="form.description" type="textarea" label="商品說明" :rules="[ val => val.length >= 1 || '必須 1 個字以上']")
-                q-option-group(v-model="form.sell" :options="options1" color="primary" inline dense)
-                q-option-group(v-model="form.category" :options="options2" color="primary" inline dense)
-                q-btn(label="取消" type="reset" color="red")
-                q-btn(label="確認" type="submit" color="primary")
+      q-dialog(persistent v-model="modal")
+        q-card
+          q-card-section
+            h4(v-if="form._id.length > 0") 編輯商品
+            h4(v-else) 新增商品
+          q-card-section
+            q-form.q-gutter-md(@submit='submit' @reset="reset")
+              img-inputer(v-model="form.image" theme="dark" size="large" placeholder="點擊或拖曳選擇圖片" bottom-text="點擊或拖曳以修改")
+              q-input(filled v-model="form.name" label="商品名稱" :rules="[ val => val.length >= 1 || '必須 1 個字以上']")
+              q-input(filled v-model="form.price" type="number" label="商品價格" :rules="[ val => val >= 0 || '價格需為 0 以上']")
+              q-input(filled v-model="form.description" type="textarea" label="商品說明" :rules="[ val => val.length >= 1 || '必須 1 個字以上']")
+              q-option-group(v-model="form.sell" :options="options1" color="primary" inline dense)
+              q-option-group(v-model="form.category" :options="options2" color="primary" inline dense)
+              q-btn(label="取消" type="reset" color="red")
+              q-btn(label="確認" type="submit" color="primary")
     .row
       .col
         q-table(flat bordered :data="products" :columns="columns" row-key="name" :pagination.sync="pagination" hide-pagination)
@@ -135,7 +135,7 @@ export default {
             }
           })
           this.products.push(this.form)
-          this.form.image = `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/${data.result.image}`
+          this.form.image = `${process.env.API_URL}/files/${data.result.image}`
         } else {
           const { data } = await this.axios.patch('/products/' + this.form._id, fd, {
             headers: {
@@ -147,7 +147,7 @@ export default {
             price: this.form.price,
             description: this.form.description,
             sell: this.form.sell,
-            image: `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/${data.result.image}`,
+            image: `${process.env.API_URL}/files/${data.result.image}`,
             category: this.form.category,
             _id: this.form._id
           }
@@ -196,7 +196,7 @@ export default {
       })
       this.products = data.result.map(product => {
         if (product.image) {
-          product.image = `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/${product.image}`
+          product.image = `${process.env.API_URL}/files/${product.image}`
         }
         return product
       })

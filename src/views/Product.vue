@@ -22,7 +22,6 @@
             //- template(v-slot:append)
             //-   q-btn(dense flat icon="add" @click="amountadd")
           q-btn(@click="addcart" color="negative") 加入購物車
-          q-btn(@click="addcart" color="negative") 立即購買
     .row.q-pa-md
       q-card.introduction(style="width: 100%;")
         q-tabs.text-grey(v-model='tab' dense active-color='negative' indicator-color='negative' align='justify' narrow-indicator)
@@ -103,11 +102,11 @@ export default {
       this.name = data.result.name
       this.price = data.result.price
       this.description = data.result.description
-      this.image = `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/${data.result.image}`
+      this.image = `${process.env.API_URL}/files/${data.result.image}`
       this.sell = data.result.sell
       this.cards = data.result2.map(card => {
         if (card.image) {
-          card.image = `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/${card.image}`
+          card.image = `${process.env.API_URL}/files/${card.image}`
         }
         return card
       })

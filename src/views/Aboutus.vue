@@ -15,7 +15,7 @@ export default {
   name: 'Aboutus',
   data () {
     return {
-      image: `http://${process.env.VUE_APP_FTPHOST}/${process.env.VUE_APP_FTPUSER}/專題/關於我們.jpg`
+      image: `${process.env.API_URL}/files/關於我們.jpg`
     }
   }
 }
