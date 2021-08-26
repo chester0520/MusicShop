@@ -28,7 +28,7 @@
           .row
             .col-2
             .col-4
-              q-btn.q-my-lg(color="primary" label="確認修改" type="submit")
+              q-btn.q-my-lg(color="primary" label="確認修改" type="negative")
 </template>
 
 <script>

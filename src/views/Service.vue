@@ -29,7 +29,7 @@
           .row
             .col-2
             .col-8
-              q-btn(label="送出" type="submit" color="primary")
+              q-btn(label="送出" type="submit" color="negative")
 </template>
 
 <script>

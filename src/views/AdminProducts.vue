@@ -36,7 +36,7 @@
               p.tabletext {{ props.row.description }}
           template(v-slot:body-cell-action="props")
             q-td(:props="props")
-              q-btn(icon="edit" color="primary" @click="editProduct(props.rowIndex)")
+              q-btn(icon="edit" color="negative" @click="editProduct(props.rowIndex)")
         .row.justify-center.q-mt-md
           q-pagination(v-model="pagination.page" :max="pagesNumber" color="grey-8" size="sm")
 </template>
