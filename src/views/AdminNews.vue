@@ -3,7 +3,7 @@
   .q-px-md
     .row
       h4 最新消息管理
-        q-btn.q-mx-lg(round color="primary" icon="add" @click="modal = true")
+        q-btn.q-mx-lg(round color="negative" icon="add" @click="modal = true")
         q-dialog(persistent v-model="modal")
           q-card
             q-card-section

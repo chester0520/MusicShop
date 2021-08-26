@@ -2,7 +2,7 @@
 #AdminProducts
   .q-px-md
     h4 商品管理
-      q-btn.q-mx-lg(round color="primary" icon="add" @click="modal = true")
+      q-btn.q-mx-lg(round color="negative" icon="add" @click="modal = true")
     .row
       q-dialog(persistent v-model="modal")
         q-card
