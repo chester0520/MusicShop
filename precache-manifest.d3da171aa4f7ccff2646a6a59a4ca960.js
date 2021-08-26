@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe8f1d102c07cb20781c",
+    "revision": "d07ea53e10c12d85ea2a",
     "url": "css/app.d1323eea.css"
   },
   {
@@ -68,12 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/iconfont.a5b5d416.svg"
   },
   {
-    "revision": "0d049ebb2e91e9f737a3cd5d4f14fae7",
+    "revision": "38978033e528f38f83cf50618cd79c46",
     "url": "index.html"
   },
   {
-    "revision": "d4434009e329a3050872",
-    "url": "js/AdminNews.dcf25060.js"
+    "revision": "feb33c8f7fc3666226cc",
+    "url": "js/AdminNews.7196dff2.js"
   },
   {
     "revision": "5843fddad836b92a3f76",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/AdminOrders.4fb84061.js"
   },
   {
-    "revision": "361cb1ac383c8286298c",
-    "url": "js/AdminProducts.37daa597.js"
+    "revision": "a99ac85ddbba44623001",
+    "url": "js/AdminProducts.ade78022.js"
   },
   {
     "revision": "260c6e283cf237d0d076",
@@ -100,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/admin.be2062bf.js"
   },
   {
-    "revision": "fe8f1d102c07cb20781c",
-    "url": "js/app.05ff2911.js"
+    "revision": "d07ea53e10c12d85ea2a",
+    "url": "js/app.1bf232b2.js"
   },
   {
     "revision": "da2cdc19d563fd9f47ef",
