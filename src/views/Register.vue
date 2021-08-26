@@ -12,7 +12,7 @@
         p
           | 已經有會員嗎?
           router-link(to='/login') 登入
-        q-btn(label="註冊" type="submit" color="primary")
+        q-btn(label="註冊" type="submit" color="negative")
 </template>
 
 <script>

@@ -9,7 +9,7 @@
         p
           | 還沒有會員嗎?
           router-link(to='/register') 註冊
-        q-btn(label="登入" type="submit" color="primary")
+        q-btn(label="登入" type="submit" color="negative")
 </template>
 
 <script>
