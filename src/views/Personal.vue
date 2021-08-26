@@ -5,15 +5,30 @@
     .row
       .col.q-mx-xl
         q-form.q-gutter-md(@submit='submit')
-          p 帳號
-          q-input(outlined readonly v-model="form.account")
-          p 姓名
-          q-input(outlined v-model="form.name" :rules="[ val => val.length > 0 || '姓名不能為空']")
-          p 電話
-          q-input(outlined v-model="form.phone" :rules="[ val => val.length === 10 || '電話最多或最少 10 個字']")
-          p 地址
-          q-input(outlined v-model="form.address" :rules="[ val => val.length > 0 || '地址不能為空']")
-          q-btn.q-my-lg(color="primary" label="確認修改" type="submit")
+          .row
+            .col-2
+              p 帳號
+            .col-4
+              q-input(outlined readonly v-model="form.account")
+          .row
+            .col-2
+              p 姓名
+            .col-4
+              q-input(outlined v-model="form.name" :rules="[ val => val.length > 0 || '姓名不能為空']")
+          .row
+            .col-2
+              p 電話
+            .col-4
+              q-input(outlined v-model="form.phone" :rules="[ val => val.length === 10 || '電話最多或最少 10 個字']")
+          .row
+            .col-2
+              p 地址
+            .col-4
+              q-input(outlined v-model="form.address" :rules="[ val => val.length > 0 || '地址不能為空']")
+          .row
+            .col-2
+            .col-4
+              q-btn.q-my-lg(color="primary" label="確認修改" type="submit")
 </template>
 
 <script>
