@@ -8,22 +8,22 @@
         q-form.q-gutter-md(@submit='submit')
           .row
             .col-2
-              p 姓名
+              p.q-pr-xl.text-right 姓名
             .col-4
               q-input(filled v-model="form.name" :rules="[ val => val.length > 0 || '姓名不能為空']")
           .row
             .col-2
-              p 電話
+              p.q-pr-xl.text-right 電話
             .col-4
               q-input(filled v-model="form.phone" :rules="[ val => val.length === 10 || '電話最多或最少 10 個字']")
           .row
             .col-2
-              p 信箱
+              p.q-pr-xl.text-right 信箱
             .col-4
               q-input(filled v-model="form.email" :error="!isValid" error-message="信箱格式錯誤" bottom-slots)
           .row
             .col-2
-              p 內容
+              p.q-pr-xl.text-right 內容
             .col-8
               q-input(filled v-model="form.text" type="textarea" :rules="[ val => val.length > 0 || '內容不能為空']")
           .row

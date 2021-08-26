@@ -7,22 +7,22 @@
         q-form.q-gutter-md(@submit='submit')
           .row
             .col-2
-              p 帳號
+              p.q-pr-xl.text-right 帳號
             .col-4
               q-input(outlined readonly v-model="form.account")
           .row
             .col-2
-              p 姓名
+              p.q-pr-xl.text-right 姓名
             .col-4
               q-input(outlined v-model="form.name" :rules="[ val => val.length > 0 || '姓名不能為空']")
           .row
             .col-2
-              p 電話
+              p.q-pr-xl.text-right 電話
             .col-4
               q-input(outlined v-model="form.phone" :rules="[ val => val.length === 10 || '電話最多或最少 10 個字']")
           .row
             .col-2
-              p 地址
+              p.q-pr-xl.text-right 地址
             .col-4
               q-input(outlined v-model="form.address" :rules="[ val => val.length > 0 || '地址不能為空']")
           .row
