@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d9657b690f5d3afbb4b2",
+    "revision": "0ef31a851845cf910823",
     "url": "css/app.ab94eff8.css"
   },
   {
@@ -68,12 +68,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/iconfont.a5b5d416.svg"
   },
   {
-    "revision": "98301fdbc80182bc0d2d30e68f01ed0e",
+    "revision": "8be0fdd17598ffcf64c70d94850274c1",
     "url": "index.html"
   },
   {
-    "revision": "612adf29dd286d2cb348",
-    "url": "js/AdminNews.e9a4ef4a.js"
+    "revision": "d4434009e329a3050872",
+    "url": "js/AdminNews.dcf25060.js"
   },
   {
     "revision": "5843fddad836b92a3f76",
@@ -88,8 +88,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/AdminOrders.4fb84061.js"
   },
   {
-    "revision": "63544f8da23c9a71bea6",
-    "url": "js/AdminProducts.7440fe01.js"
+    "revision": "361cb1ac383c8286298c",
+    "url": "js/AdminProducts.37daa597.js"
   },
   {
     "revision": "260c6e283cf237d0d076",
@@ -100,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/admin.be2062bf.js"
   },
   {
-    "revision": "d9657b690f5d3afbb4b2",
-    "url": "js/app.1f2621e3.js"
+    "revision": "0ef31a851845cf910823",
+    "url": "js/app.dd60e025.js"
   },
   {
     "revision": "da2cdc19d563fd9f47ef",
@@ -124,8 +124,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/order.13671533.js"
   },
   {
-    "revision": "ab5433a1f945a82fa573",
-    "url": "js/personal.8a1775af.js"
+    "revision": "ef6a1d072cfc64f1d4f3",
+    "url": "js/personal.5ed41abf.js"
   },
   {
     "revision": "027de3821a6314a14e91",
@@ -140,8 +140,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "js/register.1752a3be.js"
   },
   {
-    "revision": "1e92b972252e1fe6dfc9",
-    "url": "js/service.677dafcc.js"
+    "revision": "a50861bb1655a210bb48",
+    "url": "js/service.62b94164.js"
   },
   {
     "revision": "1320d1ff2134417fbd5e",
