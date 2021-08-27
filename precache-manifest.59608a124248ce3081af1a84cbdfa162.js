@@ -68,7 +68,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "img/iconfont.a5b5d416.svg"
   },
   {
-    "revision": "2d34d37b1082b02bf6cf512569393cf8",
+    "revision": "a1aec602f54fdc0b21daada2ca836d5d",
     "url": "index.html"
   },
   {
