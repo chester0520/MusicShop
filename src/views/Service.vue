@@ -47,6 +47,16 @@ export default {
       }
     }
   },
+  methods: {
+    submit () {
+      this.form = {
+        name: '',
+        phone: '',
+        email: '',
+        text: ''
+      }
+    }
+  },
   computed: {
     isValid () {
       const email = this.form.email

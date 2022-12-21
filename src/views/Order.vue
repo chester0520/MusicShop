@@ -22,7 +22,13 @@ export default {
         { name: '_id', field: '_id', align: 'center', label: '訂單編號' },
         { name: 'date', field: 'date', align: 'center', label: '訂購日期' },
         { name: 'products', field: 'products', align: 'center', label: '商品' }
-      ]
+      ],
+      pagination: {
+        sortBy: 'order',
+        descending: false,
+        page: 1,
+        rowsPerPage: 10
+      }
     }
   },
   async mounted () {
@@ -37,11 +43,9 @@ export default {
         for (const product in order.products) {
           order.products[product].product.image = `${process.env.VUE_APP_API}/files/${order.products[product].product.image}`
         }
-        console.log(order.date)
         return order
       })
     } catch (error) {
-      console.log(error)
       this.$swal({
         icon: 'error',
         title: '錯誤',
